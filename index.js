@@ -1,28 +1,28 @@
 var urls = [
-    "https://kiyutink.github.io/nyc/nyc1.jpg",
-    "https://kiyutink.github.io/nyc/nyc2.jpg",
-    "https://kiyutink.github.io/nyc/nyc3.jpg",
-    "https://kiyutink.github.io/nyc/nyc4.jpg",
-    "https://kiyutink.github.io/nyc/nyc5.jpg",
-    "https://kiyutink.github.io/london/london1.jpg",
-    "https://kiyutink.github.io/london/london2.jpg",
-    "https://kiyutink.github.io/london/london3.jpg",
-    "https://kiyutink.github.io/madrid/madrid1.jpg",
-    "https://kiyutink.github.io/madrid/madrid2.jpg",
-    "https://kiyutink.github.io/madrid/madrid3.jpg",
-    "https://kiyutink.github.io/beijing/beijing1.jpg",
-    "https://kiyutink.github.io/beijing/beijing2.jpg",
-    "https://kiyutink.github.io/beijing/beijing3.jpg",
-    "https://kiyutink.github.io/moscow/moscow1.jpg",
-    "https://kiyutink.github.io/moscow/moscow2.jpg",
-    "https://kiyutink.github.io/moscow/moscow3.jpg",
-    "https://kiyutink.github.io/sidney/sidney1.jpg",
-    "https://kiyutink.github.io/sidney/sidney2.jpg",
-    "https://kiyutink.github.io/sidney/sidney3.jpg",
-    "https://kiyutink.github.io/tokyo/tokyo1.jpg",
-    "https://kiyutink.github.io/tokyo/tokyo2.jpg",
-    "https://kiyutink.github.io/tokyo/tokyo3.jpg",
-    "https://kiyutink.github.io/la/la3.jpg"
+  "static/1.jpg",
+  "static/2.png",
+  "static/3.jpg",
+  "static/4.jpg",
+  "static/5.jpg",
+  "static/6.jpg",
+  "static/7.jpg",
+  "static/8.jpg",
+  "static/9.jpg",
+  "static/10.jpg",
+  "static/11.jpg",
+  "static/12.jpg",
+  "static/13.png",
+  "static/14.jpg",
+  "static/15.jpg",
+  "static/16.jpg",
+  "static/17.jpg",
+  "static/18.jpg",
+  "static/19.png",
+  "static/20.jpg",
+  "static/21.jpg",
+  "static/22.jpg",
+  "static/23.jpg",
+  "static/24.png",
 ];
 var urls1 = [
   "https://media.baamboozle.com/uploads/images/72450/1619661345_28453_gif-url.gif",
@@ -257,7 +257,7 @@ $(document).ready(function() {
       }, staggerTime);
     }
 
-  },7000);
+  },6000);
 
 
 });

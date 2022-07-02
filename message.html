@@ -5,15 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script language="JavaScript" type="text/javascript" src="index.js"></script>
-    <!-- <script src="confetti.js"></script> -->
+    <script language="JavaScript" type="text/javascript" src="text.js"></script>
+    <!-- <script src="text.js"></script> -->
+    <script src="confetti.js"></script>
     <title>Document</title>
 </head>
 <body>
+
     <div class="demo">
-        <!-- <div class="demo__gallery">
-        </div>  -->
+
         <br>
+        <div id="container">
+            <div id="text1">
+            </div>
+            <div id="text2">
+            </div>
+        </div>
+        
+        <svg id="filters">
+            <defs>
+                <filter id="threshold">
+                    <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                          0 1 0 0 0
+                          0 0 1 0 0
+                          0 0 0 255 -140" />
+                </filter>
+            </defs>
+        </svg>
+        <br>
+        <p>
+            Happy Birthday Jansi!
+        </p>
         <br>
         <a href="/index.html">
           <img src="https://cdn-icons-png.flaticon.com/512/56/56856.png" alt="" height="50vh" width="50vw">
