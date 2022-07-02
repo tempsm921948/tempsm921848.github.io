@@ -60,6 +60,7 @@ function wait(ms){
  }
 }
 window.onload = $(document).ready(function() {
+  document.getElementById("my_audio").play();
   const start = () => {
     setTimeout(function() {
         confetti.start()
